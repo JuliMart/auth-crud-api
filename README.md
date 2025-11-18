@@ -12,7 +12,9 @@ CORS habilitado
 
 Servidor con TypeScript compilado a JavaScript
 
-Ideal como base para proyectos reales o como demostración de conocimientos.
+
+
+
 
 🚀 Tecnologías
 
@@ -24,6 +26,10 @@ TypeScript
 
 CORS
 
+
+
+
+
 📁 Estructura del proyecto
 src/
   controllers/   → Lógica de negocio
@@ -31,6 +37,11 @@ src/
   routes/        → Endpoints organizados por recurso
   types/         → Tipos e interfaces TS
   app.ts         → Configuración principal
+
+
+
+
+  
 
 ▶️ Cómo correr el proyecto
 1. Clonar el repo
@@ -46,6 +57,10 @@ npm run dev
 4. Compilar y ejecutar (modo producción)
 npm run build
 npm start
+
+
+
+
 
 🔥 Endpoints del CRUD
 GET /api/items
@@ -73,6 +88,10 @@ DELETE /api/items/:id
 
 Elimina un item.
 
+
+
+
+
 🧩 Mejoras futuras
 
 Validación con Zod
@@ -82,6 +101,12 @@ Autenticación JWT
 Conexión con MongoDB o PostgreSQL
 
 Tests con Jest + Supertest
+
+
+
+
+
+
 
 📜 Licencia
 
