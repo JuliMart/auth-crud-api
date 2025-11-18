@@ -1,6 +1,8 @@
 📦 CRUD API con Express + TypeScript
 
-Proyecto simple de API REST construido con Node.js, Express y TypeScript. Incluye:
+Proyecto simple de API REST construido con Node.js, Express y TypeScript.
+
+Incluye:
 
 CRUD completo de Items
 
@@ -10,11 +12,7 @@ Manejo centralizado de errores
 
 CORS habilitado
 
-Servidor con TypeScript compilado a JavaScript
-
-
-
-
+Servidor TypeScript → JavaScript
 
 🚀 Tecnologías
 
@@ -26,10 +24,6 @@ TypeScript
 
 CORS
 
-
-
-
-
 📁 Estructura del proyecto
 src/
   controllers/   → Lógica de negocio
@@ -38,29 +32,20 @@ src/
   types/         → Tipos e interfaces TS
   app.ts         → Configuración principal
 
-
-
-
-  
-
 ▶️ Cómo correr el proyecto
-1. Clonar el repo
+1) Clonar el repo
 git clone https://github.com/tu-usuario/express-ts-crud.git
 cd express-ts-crud
 
-2. Instalar dependencias
+2) Instalar dependencias
 npm install
 
-3. Correr en modo desarrollo
+3) Modo desarrollo
 npm run dev
 
-4. Compilar y ejecutar (modo producción)
+4) Compilar y ejecutar (producción)
 npm run build
 npm start
-
-
-
-
 
 🔥 Endpoints del CRUD
 GET /api/items
@@ -82,15 +67,11 @@ Body esperado:
 
 PUT /api/items/:id
 
-Actualiza un item.
+Actualiza un item existente.
 
 DELETE /api/items/:id
 
-Elimina un item.
-
-
-
-
+Elimina un item por ID.
 
 🧩 Mejoras futuras
 
@@ -98,15 +79,9 @@ Validación con Zod
 
 Autenticación JWT
 
-Conexión con MongoDB o PostgreSQL
+Conexión a MongoDB o PostgreSQL
 
 Tests con Jest + Supertest
-
-
-
-
-
-
 
 📜 Licencia
 
