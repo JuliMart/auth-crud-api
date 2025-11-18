@@ -18,8 +18,7 @@ Servidor TypeScript → JavaScript
 <br>
 <br>
 <br>
-<br>
-<br>
+
 
 🚀 Tecnologías
 
@@ -30,8 +29,7 @@ Express
 TypeScript
 
 CORS
-<br>
-<br>
+
 <br>
 <br>
 <br>
