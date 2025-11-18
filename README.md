@@ -14,6 +14,13 @@ CORS habilitado
 
 Servidor TypeScript → JavaScript
 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
 🚀 Tecnologías
 
 Node.js
@@ -23,6 +30,11 @@ Express
 TypeScript
 
 CORS
+<br>
+<br>
+<br>
+<br>
+<br>
 
 📁 Estructura del proyecto
 src/
@@ -31,6 +43,11 @@ src/
   routes/        → Endpoints organizados por recurso
   types/         → Tipos e interfaces TS
   app.ts         → Configuración principal
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ▶️ Cómo correr el proyecto
 1) Clonar el repo
@@ -46,6 +63,11 @@ npm run dev
 4) Compilar y ejecutar (producción)
 npm run build
 npm start
+<br>
+<br>
+<br>
+<br>
+<br>
 
 🔥 Endpoints del CRUD
 GET /api/items
@@ -72,6 +94,11 @@ Actualiza un item existente.
 DELETE /api/items/:id
 
 Elimina un item por ID.
+<br>
+<br>
+<br>
+<br>
+<br>
 
 🧩 Mejoras futuras
 
@@ -82,6 +109,12 @@ Autenticación JWT
 Conexión a MongoDB o PostgreSQL
 
 Tests con Jest + Supertest
+<br>
+<br>
+<br>
+<br>
+<br>
+
 
 📜 Licencia
 
